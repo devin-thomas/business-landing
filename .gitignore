@@ -9,3 +9,5 @@ coverage/
 .idea/
 
 *.log
+*-desktop.png
+*-mobile.png
