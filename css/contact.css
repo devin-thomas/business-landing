@@ -53,6 +53,10 @@
   background: linear-gradient(180deg, #fff, #f6f9ff);
 }
 
+.detail-card {
+  container-type: inline-size;
+}
+
 .detail-card h3,
 .faq-card h3 {
   margin-bottom: 0.5rem;
@@ -67,6 +71,14 @@
 .detail-card a {
   color: var(--color-header);
   font-weight: 500;
+}
+
+.detail-link-email {
+  display: block;
+  font-size: clamp(0.8rem, 7cqw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .contact-figure {
